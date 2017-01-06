@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <link rel="stylesheet" href="styles/theme.css" />
+
+        <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+        <script type="text/javascript" charset="utf-8" src="scripts/main.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Device Info Sample</h1>
+        </div>
+        <div class="subheader">
+            <div class="row">
+                <div class="col">
+                    <button class="button" id="deviceName">Device Name</button>
+                </div>
+                <div class="col">
+                    <button class="button" id="deviceCordovaVersion">Cordova version</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button class="button" id="devicePlatform">Device platform</button>
+                </div>
+                <div class="col">
+                    <button class="button" id="deviceUUID">Device UUID</button>
+                </div>   
+            </div>             
+            <div class="row">            
+                <div class="col">
+                    <button class="button" id="oSVersion">OS version</button>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="row" id="results">
+                <div class="col u-text-center u-color-accent">
+                    <span id="result"></span>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <span>Feature Examples</span>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+title: Device Information
+slug: sample-device-info
+page_title: Device Information | Apache Cordova Sample | Telerik Platform
+description: This sample shows you how to use the Device Apache Cordova core plugin to obtain basic device and app information.
+tags: Apache Cordova, core, device, OS version, Apache Cordova version, device platform, device model, iOS, Android, Windows Phone
+publish: true
+content_filter: true
+apis: cordova.device cordova.device.model cordova.device.cordova cordova.device.platform cordova.device.uuid cordova.device.version
+previous_url: /sample-deviceinfo
